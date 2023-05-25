@@ -1,5 +1,5 @@
-public class MyNumberFormatException extends NumberFormatException{
+public class MyNumberFormatException extends NumberFormatException {
     public MyNumberFormatException() {
-        super("Это не строчное значение...");
+        super("Вы ввели не числовое значение!");
     }
 }
